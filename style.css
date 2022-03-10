@@ -1,0 +1,113 @@
+/* *{
+    box-sizing: border-box;
+    padding-top: 0px;
+} */
+
+.resize{
+    width: 180px;
+    height: auto;
+}
+
+body{
+    background-color: rgb(113, 190, 204);
+    font-family: 'Ubuntu',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    background-color: white;
+    margin-top: 100px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    margi
+}
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    font-family: 'Ubuntu';
+}
+
+.app-title p {
+text-transform: uppercase;
+text-align: center;
+padding: 15px;
+margin: 0 auto;
+font-size: 1.6em;
+color: black;
+}
+
+.notification{
+    background-color: aqua;
+    display: none;
+}
+
+.notification p{
+    color: brown;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 1opx 0;
+}
+
+.weather-container{
+    width: 300px;
+    height: 260px;
+    background-color: white;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temprature-value{
+    width: 300px;
+    height: 60px;
+}
+
+.temprature-value p{
+    padding: 10px;
+    margin: 0;
+    color: rgb(24, 24, 80);
+    font-size: 4em;
+    text-align: center;
+}
+
+.temprature-value span{
+    color: black;
+    font-size: 0.5em;
+}
+
+.temprature-description p{
+padding: 25px;
+margin: 0;
+color: rgb(17, 105, 76);
+text-align: center;
+font-size: 1.2em;
+}
+
+.location p{
+    margin: 0;
+    color: rgb(0, 77, 77);
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Ubuntu';
+}
+
+
